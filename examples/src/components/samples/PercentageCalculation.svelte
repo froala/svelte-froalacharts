@@ -12,7 +12,7 @@
         "xAxisName": "Country",
         "yAxisName": "Reserves (MMbbl)",
         "numberSuffix": "K",
-        "theme": "fusion"
+        "theme": "froala"
       },
       "data": [{
         "label": "Venezuela",

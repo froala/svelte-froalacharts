@@ -207,7 +207,7 @@ let listItemInfo = [
     cssClass: 'nav-item',
     selected: false,
     title: 'Lifecycle events',
-    description: 'This sample lists the basic lifecycle events at the time of rendering FusionCharts'
+    description: 'This sample lists the basic lifecycle events at the time of rendering FroalaCharts'
   },
   {
     type: 'froalacharts',
@@ -215,7 +215,7 @@ let listItemInfo = [
     cssClass: 'nav-item',
     selected: false,
     title: 'Dynamically add chart event listener',
-    description: 'How you can dynamically(runtime) add & remove chart specific events in FusionCharts'
+    description: 'How you can dynamically(runtime) add & remove chart specific events in FroalaCharts'
   },
   {
     type: 'froalacharts',
@@ -254,8 +254,8 @@ let listItemInfo = [
     dataId: 'update-chart-attribute-through-method',
     cssClass: 'nav-item',
     selected: false,
-    title: 'Usage of FusionCharts methods (API)',
-    description: 'Change a chart attribute by calling FusionCharts setChartAttribute API'
+    title: 'Usage of FroalaCharts methods (API)',
+    description: 'Change a chart attribute by calling FroalaCharts setChartAttribute API'
   },
   {
     type: 'froalacharts',
@@ -263,7 +263,7 @@ let listItemInfo = [
     cssClass: 'nav-item',
     selected: false,
     title: 'Applying a different theme',
-    description: 'Choosing from different themes available in FusionCharts Suite'
+    description: 'Choosing from different themes available in FroalaCharts Suite'
   },
   {
     type: 'fusiontime',
