@@ -16,7 +16,7 @@
         "xAxisName": "Country",
         "yAxisName": "Reserves (MMbbl)",
         "numberSuffix": "K",
-        "theme": "fusion",
+        "theme": "froala",
         "updateAnimduration": "0.4"
       },
       "data": [{

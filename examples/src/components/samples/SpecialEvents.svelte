@@ -15,7 +15,7 @@
         "numberPrefix": "$",
         "numberSuffix": "M",
         "yaxismaxvalue": "200",
-        "theme": "fusion",
+        "theme": "froala",
         "plotToolText": "<b>$label</b><br>$seriesName: <b>$dataValue</b>"
       },
       "categories": [{

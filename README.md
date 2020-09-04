@@ -54,10 +54,9 @@ Import `svelte-froalacharts` and FroalaCharts in your app:
 ```
 <script>
   import FroalaCharts from 'froalacharts/core';
-  import Column2d from 'froalacharts/viz/column2d';
   import SvelteFC, { fcRoot } from 'svelte-froalacharts';
 
-  fcRoot(FroalaCharts, Column2d);
+  fcRoot(FroalaCharts);
 </script>
 ```
 
@@ -74,7 +73,7 @@ Here is a basic sample that shows how to create a chart using `svelte-froalachar
   import SvelteFC, { fcRoot } from 'svelte-froalacharts';
 
   // Always set FroalaCharts as the first parameter
-  fcRoot(FroalaCharts, Charts, FroalaTheme);
+  fcRoot(FroalaCharts, FroalaTheme);
 
   const dataSource = {
     chart: {
@@ -98,7 +97,7 @@ Here is a basic sample that shows how to create a chart using `svelte-froalachar
   };
 
   const chartConfigs = {
-    type: 'column2d',
+    type: 'pie',
     width: 600,
     height: 400,
     dataFormat: 'json',
@@ -120,7 +119,7 @@ To attach event callbacks to a FroalaCharts component, follow the sample below.
   import SvelteFC, { fcRoot } from 'svelte-froalacharts';
 
   // Always set FroalaCharts as the first parameter
-  fcRoot(FroalaCharts, Charts, FroalaTheme);
+  fcRoot(FroalaCharts, FroalaTheme);
 
   const dataSource = {
       chart: {
@@ -150,7 +149,7 @@ To attach event callbacks to a FroalaCharts component, follow the sample below.
     };
 
   const chartConfigs = {
-    type: 'column2d',
+    type: 'pie',
     width: 600,
     height: 400,
     dataFormat: 'json',
@@ -176,7 +175,7 @@ To call APIs we will need the chart object. To get the chart object for an Svelt
   import FroalaTheme from 'froalacharts/themes/froalacharts.theme.froala';
   import SvelteFC, { fcRoot } from 'svelte-froalacharts';
 
-  fcRoot(FroalaCharts, Charts, FroalaTheme);
+  fcRoot(FroalaCharts, FroalaTheme);
 
   let chartObj,
     dataSource = {
@@ -206,7 +205,7 @@ To call APIs we will need the chart object. To get the chart object for an Svelt
       }]
     },
     chartConfig = {
-      type: 'pie2d',
+      type: 'pie',
       width: '600',
       height: '400',
       renderAt: 'chart-container',
@@ -244,7 +243,7 @@ links to help you get started:
 
 ## Usage and integration of FusionTime
 
-From `froalacharts@1.0.4`, You can visualize timeseries data.
+From `froalacharts@1.0.0`, You can visualize timeseries data.
 
 Learn more about FusionTime [here](https://www.fusioncharts.com/fusiontime).
 
@@ -255,7 +254,7 @@ Learn more about FusionTime [here](https://www.fusioncharts.com/fusiontime).
   import FroalaCharts from 'froalacharts';
   import SvelteFC, { fcRoot } from 'svelte-froalacharts';
 
-  fcRoot(FroalaCharts, Timeseries);
+  fcRoot(FroalaCharts);
 
   let promise,
     jsonify = res => res.json(),
