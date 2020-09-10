@@ -10,7 +10,7 @@
   let chartObj,
     chartConfig = {
       id: 'column-chart',
-      type: 'column2d',
+      type: 'pie',
       width: '100%',
       height: 400,
       renderAt: 'chart-container',

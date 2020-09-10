@@ -34,7 +34,7 @@ html =
         id="radioButton1"
         type="radio"
         on:change={() => {
-          changeChartTypeHandler('column2d');
+          changeChartTypeHandler('pie');
         }}
         checked="checked"
       >
@@ -57,7 +57,7 @@ html =
         id="radioButton3"
         type="radio"
         on:change={() => {
-          changeChartTypeHandler('pie2d');
+          changeChartTypeHandler('pie');
         }}
       >
       <label for="radioButton3">Pie 2D Chart</label>

@@ -45,7 +45,7 @@
       }]
     },
     chartConfig = {
-      type: 'column2d',
+      type: 'pie',
       renderAt: 'chart-container',
       width: '100%',
       height: 380,

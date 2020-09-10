@@ -6,7 +6,7 @@
     title = '',
     description = '',
     selected = false,
-    badge = 'FusionTime',
+    badge = 'FroalaTime',
     idUpdateHandler = () => {};
 </script>
 

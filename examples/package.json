@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "codemirror": "^5.48.4",
-    "froalacharts": "^1.0.4"
+    "froalacharts": "^1.0.11"
   }
 }

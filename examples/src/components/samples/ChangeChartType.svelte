@@ -9,7 +9,7 @@
   let chartObj,
     chartConfig = {
       id: 'column-chart',
-      type: 'column2d',
+      type: 'pie',
       width: '100%',
       height: 400,
       renderAt: 'chart-container',
@@ -131,7 +131,7 @@
         id="radioButton1"
         type="radio"
         on:change={() => {
-          changeChartTypeHandler('column2d');
+          changeChartTypeHandler('pie');
         }}
         checked="checked"
       >
@@ -154,10 +154,10 @@
         id="radioButton3"
         type="radio"
         on:change={() => {
-          changeChartTypeHandler('pie2d');
+          changeChartTypeHandler('pie');
         }}
       >
-      <label for="radioButton3">Pie 2D Chart</label>
+      <label for="radioButton3">Pie Chart</label>
     </div>
   </div>
 </div>

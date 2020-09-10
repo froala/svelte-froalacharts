@@ -11,7 +11,7 @@ const code =
       return p + Number(c.value);
     }, 0),
     chartConfig = {
-      type: 'column2d',
+      type: 'pie',
       renderAt: 'chart-container',
       width: '600',
       height: '400',

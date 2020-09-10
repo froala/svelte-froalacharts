@@ -143,15 +143,15 @@
       </div>
     </div>
   </div>
-  <!-- FusionTime Integration -->
+  <!-- FroalaTime Integration -->
   <div class="row">
     <div class="col">
-      <div class="h2 mt-2">Usage and integration of FusionTime</div>
+      <div class="h2 mt-2">Usage and integration of FroalaTime</div>
     </div>
   </div>
   <div class="row">
     <div class="col-12">
-      <p class="code-desc">From <code>froalacharts@3.13.3-sr.1</code> You can visualize timeseries data easily with
+      <p class="code-desc">From <code>froalacharts@1.0.11</code> You can visualize timeseries data easily with
         Svelte.
       </p>
       <div class="h6 mt-2">

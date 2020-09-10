@@ -7,47 +7,48 @@ let listItemInfo = [
     title: 'A Simple Chart',
     description: 'A simple chart with all data embedded into the directive'
   },
+  // {
+  //   type: 'time',
+  //   dataId: 'simple-timeseries',
+  //   cssClass: 'nav-item',
+  //   selected: false,
+  //   title: 'A Simple TimeSeries',
+  //   badge: 'FroalaTime',
+  //   description: 'A simple time-series chart with a single series plotted as line'
+  // },
+  // {
+  //   type: 'froalatime',
+  //   dataId: 'column-time-axis',
+  //   cssClass: 'nav-item',
+  //   selected: false,
+  //   title: 'Column chart with time axis',
+  //   badge: 'FroalaTime',
+  //   description: 'Time-series chart with series plotted as column'
+  // },
+  // {
+  //   type: 'froalatime',
+  //   dataId: 'area-time-axis',
+  //   cssClass: 'nav-item',
+  //   selected: false,
+  //   title: 'Area chart with time axis',
+  //   badge: 'FroalaTime',
+  //   description: 'Time-series chart with series plotted as area'
+  // },
+  // {
+  //   type: 'froalacharts',
+  //   dataId: '3d-pie-chart',
+  //   cssClass: 'nav-item',
+  //   selected: false,
+  //   title: 'A 3D Pie Chart',
+  //   description: 'A 3D pie chart using the datasource attribute from component\'s scope'
+  // },
   {
-    type: 'fusiontime',
-    dataId: 'simple-timeseries',
-    cssClass: 'nav-item',
-    selected: false,
-    title: 'A Simple TimeSeries',
-    badge: 'FusionTime',
-    description: 'A simple time-series chart with a single series plotted as line'
-  },
-  {
-    type: 'froalatime',
-    dataId: 'column-time-axis',
-    cssClass: 'nav-item',
-    selected: false,
-    title: 'Column chart with time axis',
-    badge: 'FusionTime',
-    description: 'Time-series chart with series plotted as column'
-  },
-  {
-    type: 'fusiontime',
-    dataId: 'area-time-axis',
-    cssClass: 'nav-item',
-    selected: false,
-    title: 'Area chart with time axis',
-    badge: 'FusionTime',
-    description: 'Time-series chart with series plotted as area'
-  },
-  {
-    type: 'froalacharts',
-    dataId: '3d-pie-chart',
-    cssClass: 'nav-item',
-    selected: false,
-    title: 'A 3D Pie Chart',
-    description: 'A 3D pie chart using the datasource attribute from component\'s scope'
-  },
-  {
-    type: 'froalacharts',
+    type: 'gauge',
     dataId: 'simple-gauge',
     cssClass: 'nav-item',
     selected: false,
     title: 'A simple gauge',
+    badge: 'FroalaTime',
     description: 'A simple gauge to show customer satisfaction score'
   },
   {
@@ -59,29 +60,29 @@ let listItemInfo = [
     description: 'A combination chart of column , line and area'
   },
   {
-    type: 'fusiontime',
+    type: 'froalatime',
     dataId: 'column-chart-time-axis',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Column and line combination on time axis',
     description: 'Two series of data plotted as a combination of column & line on the same y-axis'
   },
   {
-    type: 'fusiontime',
+    type: 'froalatime',
     dataId: 'multi-series-time-axis',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Plotting multiple series on time axis',
     description: 'A multi-series chart with 2 variables plotted as line on the same y-axis'
   },
   {
-    type: 'fusiontime',
+    type: 'froalatime',
     dataId: 'multivariate-timeseries',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Plotting two variables (measures)',
     description: 'Plotting 2 different variables in 2 different vertically stacked canvases'
   },
@@ -142,38 +143,38 @@ let listItemInfo = [
     description: 'Use LinkedCharts to quickly add drill-down to charts'
   },
   {
-    type: 'FusionTime',
+    type: 'FroalaTime',
     dataId: 'adding-reference-line',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Adding a reference line',
     description: 'Adding a static reference line (by value) to indicate targets or threshold'
   },
   {
-    type: 'FusionTime',
+    type: 'FroalaTime',
     dataId: 'annotating-data',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Annotating single data point',
     description: 'Annotating specific data point using data markers on line series'
   },
   {
-    type: 'FusionTime',
+    type: 'FroalaTime',
     dataId: 'single-event-overlay',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Single event overlay',
     description: 'Plotting an event marker to indicate an event for a specific date'
   },
   {
-    type: 'FusionTime',
+    type: 'FroalaTime',
     dataId: 'date-event-overlay',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Date range event overlay',
     description: 'Plotting an event marker as a band, to indicate an event that spans a data range'
   },
@@ -266,11 +267,11 @@ let listItemInfo = [
     description: 'Choosing from different themes available in FroalaCharts Suite'
   },
   {
-    type: 'fusiontime',
+    type: 'froalatime',
     dataId: 'interactive-candlestick-chart',
     cssClass: 'nav-item',
     selected: false,
-    badge: 'FusionTime',
+    badge: 'FroalaTime',
     title: 'Interactive candlestick chart',
     description: 'Time-series chart plotted as candlestick, with 4 different values for each plot(open, high, low, close)'
   },

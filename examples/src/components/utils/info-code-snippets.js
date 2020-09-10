@@ -41,7 +41,7 @@ renderFcCode =
       }]
     },
     chartConfig = {
-      type: 'pie2d',
+      type: 'pie',
       width: '600',
       height: '400',
       renderAt: 'chart-container',

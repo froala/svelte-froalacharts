@@ -196,7 +196,7 @@
               >
                 data.js
               </button>
-              {#if curItem.type === 'fusiontime'}
+              {#if curItem.type === 'froalatime'}
                 <button
                   bind:this={schemaBtn}
                   on:click={() => {

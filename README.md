@@ -6,7 +6,7 @@ A simple and lightweight official Svelte component for FroalaCharts JavaScript c
 
 - Github Repo: [https://github.com/froala/svelte-froalacharts.git](https://github.com/froala/svelte-froalacharts.git)
 - Support: [https://www.fusioncharts.com/contact-support](https://www.fusioncharts.com/contact-support)
-- FusionCharts
+- FroalaCharts
   - Official Website: [https://www.fusioncharts.com/](https://www.fusioncharts.com/)
   - Official NPM Package: [https://www.npmjs.com/package/fusioncharts](https://www.npmjs.com/package/fusioncharts)
 - Issues: [https://github.com/fusioncharts/svelte-fusioncharts/issues](https://github.com/fusioncharts/svelte-fusioncharts/issues)
@@ -23,7 +23,7 @@ A simple and lightweight official Svelte component for FroalaCharts JavaScript c
   - [Working with events](#working-with-events)
 - [Quick Start](#quick-start)
 - [Going Beyond Charts](#going-beyond-charts)
-- [Usage and Integration of FusionTime](#usage-and-integration-of-fusionTime)
+- [Usage and Integration of FroalaTime](#usage-and-integration-of-froalaTime)
 - [For Contributors](#for-contributors)
 - [Licensing](#licensing)
 
@@ -239,15 +239,15 @@ links to help you get started:
 - [Documentation](https://www.fusioncharts.com/dev/getting-started/svelte/your-first-chart-using-svelte)
 - [Use Chart API events & methods in Svelte](https://www.fusioncharts.com/dev/getting-started/svelte/configure-your-chart-using-svelte)
 - [Chart gallery](https://www.fusioncharts.com/explore/chart-gallery)
-- [FusionCharts API](https://www.fusioncharts.com/dev/api/fusioncharts)
+- [FroalaCharts API](https://www.fusioncharts.com/dev/api/fusioncharts)
 
-## Usage and integration of FusionTime
+## Usage and integration of FroalaTime
 
 From `froalacharts@1.0.0`, You can visualize timeseries data.
 
-Learn more about FusionTime [here](https://www.fusioncharts.com/fusiontime).
+Learn more about FroalaTime [here](https://www.fusioncharts.com/fusiontime).
 
-### Consider the example below for integration of FusionTime
+### Consider the example below for integration of FroalaTime
 
 ```javascript
 <script>
@@ -314,10 +314,10 @@ Learn more about FusionTime [here](https://www.fusioncharts.com/fusiontime).
 </div>
 ```
 
-Useful links for FusionTime
+Useful links for FroalaTime
 
-- [How FusionTime works](https://www.fusioncharts.com/dev/fusiontime/getting-started/how-fusion-time-works)
-- [Create your first chart](https://www.fusioncharts.com/dev/fusiontime/getting-started/create-your-first-chart-in-fusiontime)
+- [How FroalaTime works](https://www.fusioncharts.com/dev/fusiontime/getting-started/how-fusion-time-works)
+- [Create your first chart](https://www.fusioncharts.com/dev/fusiontime/getting-started/create-your-first-chart-in-froalatime)
 
 
 ## Going Beyond Charts

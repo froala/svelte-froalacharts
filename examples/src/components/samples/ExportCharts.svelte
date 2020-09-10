@@ -202,7 +202,7 @@
       }
     },
     chartConfigColumn = {
-      type: 'column2d',
+      type: 'pie',
       renderAt: 'chart-container1',
       width: '800',
       height: '475',
