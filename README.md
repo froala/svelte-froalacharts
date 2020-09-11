@@ -2,7 +2,7 @@
 
 A simple and lightweight official Svelte component for FroalaCharts JavaScript charting library. `svelte-froalacharts` enables you to add JavaScript charts in your Svelte application or project without any hassle.
 
-## [Demo](https://fusioncharts.github.io/svelte-fusioncharts/)
+## [Demo](https://github.com/froala/svelte-froalacharts/blob/master/README.md#demo)
 
 - Github Repo: [https://github.com/froala/svelte-froalacharts.git](https://github.com/froala/svelte-froalacharts.git)
 - Support: [https://www.fusioncharts.com/contact-support](https://www.fusioncharts.com/contact-support)
@@ -340,4 +340,4 @@ $ npm run dev
 
 ## Licensing
 
-The FroalaCharts Svelte component is open-source and distributed under the terms of the MIT/X11 License. However, you will need to download and include FroalaCharts library in your page separately, which has a [separate license](https://www.fusioncharts.com/buy).
+The FroalaCharts Svelte component is open-source and distributed under the terms of the MIT/X11 License. However, you will need to download and include FroalaCharts library in your page separately, which has a [separate license](https://github.com/froala/svelte-froalacharts/blob/master/README.md#licensing).
