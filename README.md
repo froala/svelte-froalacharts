@@ -5,7 +5,7 @@ A simple and lightweight official Svelte component for FroalaCharts JavaScript c
 ## [Demo](https://github.com/froala/svelte-froalacharts/blob/master/README.md#demo)
 
 - Github Repo: [https://github.com/froala/svelte-froalacharts.git](https://github.com/froala/svelte-froalacharts.git)
-- Support: [https://www.fusioncharts.com/contact-support](https://www.fusioncharts.com/contact-support)
+- Support: [https://froala.com/contact/](https://froala.com/contact/)
 - FroalaCharts
   - Official Website: [https://www.fusioncharts.com/](https://www.fusioncharts.com/)
   - Official NPM Package: [https://www.npmjs.com/package/fusioncharts](https://www.npmjs.com/package/fusioncharts)
@@ -340,4 +340,4 @@ $ npm run dev
 
 ## Licensing
 
-The FroalaCharts Svelte component is open-source and distributed under the terms of the MIT/X11 License. However, you will need to download and include FroalaCharts library in your page separately, which has a [separate license](https://github.com/froala/svelte-froalacharts/blob/master/README.md#licensing).
+The FroalaCharts Svelte component is open-source and distributed under the terms of the MIT/X11 License. However, you will need to download and include FroalaCharts library in your page separately, which has a [separate license](https://www.ideracorp.com/legal/Froala#tabs-2).
