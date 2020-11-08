@@ -15,28 +15,36 @@
   },
   "keywords": [
     "svelte",
-    "froalacharts",
-    "wrapper",
-    "charting-library",
+    "svelte-froalacharts-component",
     "svelte-froalacharts",
-    "svelte-wrapper"
+    "froalacharts",
+    "javascript-charts",
+    "interactive-charts",
+    "charts",
+    "graphs",
+    "visualization",
+    "data-visualization",
+    "dataviz",
+    "svelte-charts"
   ],
   "files": [
     "src",
     "index.mjs",
     "index.js"
   ],
-  "description": "A simple and lightweight official Svelte component for FroalaCharts JavaScript charting library. `svelte-froalacharts` enables you to add JavaScript charts in your Svelte application or project without any hassle.",
+  "description": "Simple and lightweight official Svelte component for FroalaCharts.",
   "version": "1.0.0",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/froala/svelte-froalacharts.git"
   },
-  "author": "Priyanjit Dey <priyanjit.dey@gmail.com>",
+  "author": {
+    "name": "froala",
+    "email": "support@froala.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/froala/svelte-froalacharts/issues"
   },
-  "homepage": "https://github.com/froala/svelte-froalacharts/blob/master/README.md"
+  "homepage": "https://github.com/froala/svelte-froalacharts"
 }
